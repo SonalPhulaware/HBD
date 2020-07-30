@@ -1,0 +1,227 @@
+
+
+#cake{
+  position:absolute ;
+  top: 49%;
+  left: 40%;
+  display: none;
+}
+#cake img{
+  height: 220px;
+  width: 260px;
+}
+#pics-up{
+  top: 120px;
+  height: 80%;
+  width: 300px;
+  position: absolute;
+  display: none;
+
+}
+
+#message-col1{
+  height: 25%;
+  width: 410px;
+  left: 65%;
+  top: 22%; 
+  position: absolute;
+  
+}
+
+
+#message-col2{
+  height: 25%;
+  width: 410px;
+  left: 65%;
+  top: 52%; 
+  position: absolute;
+  
+}
+
+
+#message-col3{
+  height: 30%;
+  width: 380px;
+  left: 64%;
+  top: 70%; 
+  position: absolute;
+  padding-left: 70px;
+  display: none;
+}
+
+#gift{
+  height: 100%;
+  width: 350px;
+  
+}
+
+#message1,#message2{
+  line-height: 2.2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+}
+
+#group-pic{
+  height: 280px;
+  width: 280px;
+  border:black 0.5px;
+  border-style: hidden;
+  border-radius: 100%;
+  padding: 5px 10px;
+}
+#heart-img{
+  height: 300px;
+  width: 250px;
+  left: 250px;
+  top: 39%;
+  position: absolute;
+  display: none;
+}
+#heart-img img{
+  height: 320px;
+  width: 300px;
+}
+#pirri{
+  color:white;
+  position: absolute;
+  top: 36%;
+  left: 29px;
+  margin-top: 10px;;
+  font-size: 2.3rem;
+  text-align: center;
+  height: 100px;
+  width: 230px;
+  font-family: 'Satisfy', cursive;
+  transform: rotate(-33deg);
+  text-shadow: 3.5px 3.5px crimson;
+}
+#myVideo{
+    position: fixed;
+    margin: 0% -1.5%;
+    width: auto;
+    height: auto; 
+}
+.div-button{
+    text-align: center;
+    margin-top:615px ;
+    margin-bottom: 0px;
+    margin-left: 445px;
+    margin-right: 430px;
+    display: inline-block;
+
+}
+
+.container-fluid{
+    height: 669px;
+    width: auto;
+    background-color: black;
+    position: relative;
+}
+
+#baloons{
+    position: absolute;
+    background: url("/home/sonal/Desktop/WebDevelopment/Happy_Birthday/images/ball.png");
+    display: none; 
+    height: 200px;
+    background-size: 50% 200px;
+    width: 100%;
+    top: 465px;
+}
+
+
+.fade-in {
+    animation: fadeIn ease 10s;
+    -webkit-animation: fadeIn ease 10s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;
+    -ms-animation: fadeIn ease 10s;
+    display: none;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+}
+#imageBox{
+  position: absolute;
+  z-index: 1;
+}
+#baloon-image{
+  height: 120px;
+  width: 150px;
+  display: none;
+}
+#decorate{
+  position: absolute;
+  left: 230px;
+  top:-10px;
+  right: 150px;
+  height: 200px;
+  width: 350px;
+  animation: swing ease-in-out 1s infinite alternate;
+  transform-origin: center -20px;
+}
+#decorate:after{
+  content: '';
+  position: absolute;  
+  top: -10px; left: 50%;
+  z-index: 0;
+  transform: rotate(45deg);
+}
+/* nail */
+#decorate:before{
+  position: absolute;
+  width: 5px; height: 5px;
+  top: -14px;left: 54%;
+  z-index: 5;
+}
+
+@keyframes swing {
+  0% { transform: rotate(5deg); }
+  100% { transform: rotate(-5deg); }
+}
+
+
